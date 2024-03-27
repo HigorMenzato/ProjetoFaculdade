@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SériesVerso</title>
     <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     <div id="container">
         <div id="topo">
             <h1 id="nomeSite">SériesVerso</h1>
+
+            <!--Links das outras abas-->
             <nav>
                 <ul>
                     <li><a href="../Home/home.html">Início </a></li>
@@ -21,25 +24,53 @@
             </nav>
         </div>
 
-        <div id="conteudo">
-            <h1 id="titulo">Seja bem-vindo ao SériesVerso!</h1>
-            <p id="apresentacao">Aqui você descobre seu anime, série ou filme favorito, 
-                ainda pode compartilhar caso não tenha no site!
-            </p>
+        <!--Conteúdo do site-->
+        <div class="conteudo">
+            <h1>Séries em destaque:</h1>
             
-            <div>
-                <h2 id="SDestaque">Série em destaque:</h2>
-                <h2 id="Nome">Avatar: O Ultimo Mestre do Ar</h2>
-                <img src="../Imgs/fotoAvatar.jpeg">
-            </div>
+            <!--Carrossel para séries em destaque-->
+            <!--Indicadores de posição do slide-->
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
 
+              <!--imagens das séries-->
+              <div class="carrossel">
+                <div id="carrosselItem1" class="carousel-item active">
+                  <img id="fotoAvatar" src="../Imgs/fotoAvatar.jpeg" class="imagenSeries" alt="imagem1">
+                  <img id="fotoOrigem" src="../Imgs/fotoOrigem.jpeg" class="imagenSeries" alt="imagem2">
+                </div>
+                <div id="carrosselItem2" class="carousel-item">
+                  <img id="fotoTheWalkingDead" src="../Imgs/fotoCavaleiroLua.jpeg" class="imagenSeries" alt="imagem3">
+                </div>
+                <div id="carrosselItem3" class="carousel-item">
+                  <img src="../Imgs/fotoTheWakingDead.jpeg" class="imagenSeries" alt="imagem4">
+                </div>
+              </div>
+
+              <!--Botões de avançar e retroceder-->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            
         </div>
 
-        <footer>
-            <p>&copy; 2024 SériesVerso</p>
-        </footer>
     </div>
 
+    <footer>
+        <p>&copy; 2024 SériesVerso</p>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="home.js"></script>
 </body>
 </html>
