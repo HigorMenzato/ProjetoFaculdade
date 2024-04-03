@@ -61,35 +61,3 @@ footer {
 #titulo {
     color: rgb(145, 4, 4);
 }  
-
-.carrossel{
-    width: 100%;
-    overflow-x:hidden; /* ou overflow-x: scroll; */
-    white-space: nowrap;
-}
-
-.carousel-item {
-    display: inline-block;
-    width: 300px; /* ajuste conforme necessário */
-    margin-right: 10px; /* espaço entre as imagens */
-}
-
-.imagenAnimes{
-    position: relative;
-    width: 200px;
-    margin-right: 15px;
-    
-}
-
-.carousel-control-prev{
-    width: 1px;
-    height: 1px;
-    margin-top: 140px;
-    margin-left: -10%;
-}
-
-.carousel-control-next{
-    width: 1px;
-    height: 1px;
-    margin-top: 140px;
-}

@@ -26,28 +26,32 @@
 
       <!--Conteúdo do site-->
       <div class="conteudo">
+        
+        <div class="seriesDestaque">
           <h1>Séries em destaque:</h1>
           
           <!--Carrossel para séries em destaque-->
-          <!--Indicadores de posição do slide-->
           <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
 
-            <!--imagens das séries-->
+            <!--imagens das séries em destaque-->
             <div class="carrossel">
               <div id="carrosselItem1" class="carousel-item active">
-                <img id="fotoAvatar" src="../Imgs/fotoAvatar.jpeg" class="imagenSeries" alt="imagem1" onclick="siteAvatar()">
-                <img id="fotoOrigem" src="../Imgs/fotoOrigem.jpeg" class="imagenSeries" alt="imagem2">
+                <a href="../avatar/avatar.html"><img src="../fotosSeries/fotoAvatar.jpeg" class="imagenSeries" alt="imagem1"></a>
+                <a href="../origem/origem.html"><img src="../fotosSeries/fotoOrigem.jpeg" class="imagenSeries" alt="imagem2"></a>
+                <a href=""><img src="../fotosSeries/fotoStrangerThings.jpeg" class="imagenSeries" alt="imagem3"></a>
+                <a href=""><img src="../fotosSeries/fotoTheBoys.jpeg" class="imagenSeries" alt="imagem4"></a>
+                <a href=""><img src="../fotosSeries/fotoTheLastOfUs.jpeg" class="imagenSeries" alt="imagem5"></a>
+                <a href=""><img src="../fotosSeries/FotoProblemaTresCorpos.jpeg" class="imagenSeries" alt="imagem6"></a>
+                <a href=""><img src="../fotosSeries/fotoPacificador.jpeg" class="imagenSeries" alt="imagem7"></a>
               </div>
               <div id="carrosselItem2" class="carousel-item">
-                <img id="fotoTheWalkingDead" src="../Imgs/fotoCavaleiroLua.jpeg" class="imagenSeries" alt="imagem3">
-              </div>
-              <div id="carrosselItem3" class="carousel-item">
-                <img src="../Imgs/fotoTheWakingDead.jpeg" class="imagenSeries" alt="imagem4">
+                <a href=""><img src="../fotosSeries/fotoTheWakingDead.jpeg" class="imagenSeries" alt="imagem8"></a>
+                <a href=""><img src="../fotosSeries/fotoCavaleiroLua.jpeg" class="imagenSeries" alt="imagem9"></a>
+                <a href=""><img src="../fotosSeries/fotoChernobyl.jpeg" class="imagenSeries" alt="imagem10"></a>
+                <a href=""><img src="../fotosSeries/fotoSupernatural.jpeg" class="imagenSeries" alt="imagem11"></a>
+                <a href=""><img src="../fotosSeries/fotoBreakingBad.jpeg" class="imagenSeries" alt="imagem12"></a>
+                <a href=""><img src="../fotosSeries/fotoVikings.jpeg" class="imagenSeries" alt="imagem13"></a>
+                <a href=""><img src="../fotosSeries/fotoCasaPapel.jpeg" class="imagenSeries" alt="imagem14"></a>
               </div>
             </div>
 
@@ -60,6 +64,47 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
+          </div>
+        </div>
+
+        <!--------------------------------------------------------------------------------------------------------------------------->
+          <div class="animesDestaque">
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+
+              <!--imagens dos Animes em destaque-->
+              <div class="carrossel">
+                <div id="carrosselItem1" class="carousel-item active">
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem1"></a>
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem2"></a>
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem3"></a>
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem4"></a>
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem5"></a>
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem6"></a>
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem7"></a>
+                </div>
+                <div id="carrosselItem2" class="carousel-item">
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem8"></a>
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem9"></a>
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem10"></a>
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem11"></a>
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem12"></a>
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem13"></a>
+                  <a href=""><img src="" class="imagenAnimes" alt="imagem14"></a>
+                </div>
+              </div>
+  
+              <!--Botões de avançar e retroceder-->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
           </div>
           
       </div>

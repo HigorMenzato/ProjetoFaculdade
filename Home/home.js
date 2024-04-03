@@ -1,6 +1,5 @@
-
 // Inicialize o carrossel
-var myCarousel = document.querySelector('#carousel');
+var myCarousel = document.querySelector('#carouselExampleIndicators');
 var carousel = new bootstrap.Carousel(myCarousel);
 
 // Adicione os eventos de clique aos botões de controle do carrossel
