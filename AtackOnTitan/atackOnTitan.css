@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#topo {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #131313;
+    color: #fff;
+    padding: 7px;
+    text-align: center;
+}
+
+#nomeSite{
+    color: rgb(145, 4, 4);
+}
+
+/*Links das outras abas*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*footer*/
+footer {
+    background-color: #131313;
+    color: #fff;
+    text-align: center;
+    padding: 9px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Parte do conteúdo do site*/
+.conteudo {
+    padding-top: 130px;
+    padding-left: 70px;
+    height: 1100px;
+    z-index: 1;
+    background-color: #333;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
+
+#titulo {
+    color: rgb(145, 4, 4);
+} 
+
+.imagens{
+    width: 100%;
+}
+
+/*Trailer e imagem da série*/
+#trailerAtackOnTitan{
+    width: calc(50% - 150px); /* Ajusta a largura do vídeo com base na largura disponível no container */
+    display: inline-block; /* Exibe o elemento como um bloco inline */
+    vertical-align: top; /* Alinha o topo do elemento ao topo dos elementos inline adjacentes */
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+#fotoAtackOnTitan{
+    width: 300px; /* Defina a largura da imagem */
+    margin-top: 35px;
+    display: inline-block;
+}
+
+#elenco{
+    width: calc(20% - 10px); /* Ajusta a largura do vídeo com base na largura disponível no container */
+    display: inline-block; /* Exibe o elemento como um bloco inline */
+    vertical-align: top; /* Alinha o topo do elemento ao topo dos elementos inline adjacentes */
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+#elenco p{
+    font-size: 15px;
+}
+
+/*Sinopse da série*/
+.sinopse {
+    margin-top: 35px;
+    width: 1000px;
+    height: 210px;
+    background-color: rgb(26, 25, 25);
+    border-radius: 15px;
+}
+/* Estilos para o texto */
+.sinopse p{
+    margin-left:20px;
+    margin-bottom: 10px; /* Adiciona margem inferior entre os parágrafos */
+    font-size: 15px;
+}
