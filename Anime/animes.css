@@ -107,3 +107,16 @@ footer {
     overflow-x:hidden; /* ou overflow-x: scroll; */
     white-space: nowrap;
 }
+
+.animesAcao{
+    padding-top: 80px;
+}
+
+.imagenAnimes{
+    position: relative;
+    left: 50px;
+    width: 200px;
+    height: 280px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
